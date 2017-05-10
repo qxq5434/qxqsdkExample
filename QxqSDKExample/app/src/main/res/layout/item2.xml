@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+<<<<<<< HEAD
+    android:orientation="vertical"
+    android:background="@color/red"
+=======
+    android:orientation="horizontal"
+>>>>>>> 5ff8901cbf482e16488f53a9b99fa95929148c34
+    >
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+<<<<<<< HEAD
+        android:layout_height="wrap_content"
+=======
+        android:layout_height="100dp"
+>>>>>>> 5ff8901cbf482e16488f53a9b99fa95929148c34
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+<<<<<<< HEAD
+        android:background="@color/green"
+=======
+>>>>>>> 5ff8901cbf482e16488f53a9b99fa95929148c34
+        />
+
+
+</LinearLayout>
