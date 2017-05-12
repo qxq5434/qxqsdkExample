@@ -67,7 +67,7 @@ public class GirdRecyclerViewFragment extends QxqBaseFragment{
             }
         });
         adapter.setOnRecyclerViewListener(onItemClickListener);
-        GridLayoutManager layoutManager = new GridLayoutManager(getActivity(), 3);
+        GridLayoutManager layoutManager = new GridLayoutManager(getActivity(), 2);
         adapter.setLoadMore(mRecyclerView, layoutManager, new QxqBaseRecyclerViewAdapter.RecyclerViewLoadMoreCallBack() {
             @Override
             public void loadMore() {
